@@ -3,8 +3,8 @@ public class Aluno{
     private String nome;
 
     public Aluno(int id, String nome) {
-        id = id;
-        nome = nome;
+        this.id = id;
+        this.nome = nome;
     }
 
     public int getId() {
