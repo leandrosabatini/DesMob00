@@ -2,6 +2,11 @@ public class Aluno{
     private int id;
     private String nome;
 
+    public Aluno(int id, String nome) {
+        id = id;
+        nome = nome;
+    }
+
     public int getId() {
         return id;
     }
